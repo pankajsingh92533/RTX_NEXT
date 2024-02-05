@@ -1,4 +1,6 @@
 import {configureStore} from "@reduxjs/toolkit"
-export const stor=configureStore({
-    reducer:{}
+import reducer from './slice'
+export const store=configureStore({
+    
+        reducer:reducer
 })

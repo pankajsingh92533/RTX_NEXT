@@ -6,7 +6,7 @@ export default function Home() {
     <main>
      
       <AddUsers/>
-      <DisplayUsers/>
+      <DisplayUsers/>     
       
 
     </main>

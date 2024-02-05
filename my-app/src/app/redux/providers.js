@@ -1,11 +1,11 @@
 //it provide layer of rtk outside nextjs
-"use Client"
-const {provider}=require("react-redux")
-import { store } from "./store"
+"use client"
+import { Provider } from "react-redux"
+import { store } from "./store.js"
 export function Providers({children})
 {
-    return <provider store={store}>
+    return <Provider store={store}>
         {children}
-    </provider>
+    </Provider>
 }
 //it is used in layout.js
